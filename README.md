@@ -1,1 +1,1 @@
-# SFML-Android-Template
+# SFML Android Project Template
