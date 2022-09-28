@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Example</string>
+    <string name="sfml_activity_x">sfml-activity</string>
+</resources>
