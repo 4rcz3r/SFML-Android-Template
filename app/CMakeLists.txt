@@ -10,6 +10,7 @@ set(PATH_TO_SFML ${ANDROID_NDK}/sources/third_party/sfml)
 
 set(SFML_DIR ${PATH_TO_SFML}/lib/${ANDROID_ABI}/cmake/SFML)
 find_package(SFML 3 COMPONENTS Graphics Audio Network REQUIRED)
+# or 2 for 2.6.x
 
 set(PATH_TO_SOURCES src/main/cpp)
 add_library(example SHARED
@@ -34,3 +35,4 @@ target_link_libraries(example
         EGL
         GLESv1_CM
         )
+# SFML::Graphics, etc. -> sfml-graphics for 2.6.x
